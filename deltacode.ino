@@ -4,6 +4,10 @@ Arduino file for controlling the Delta Elektronics ES030-5 power supply using th
 This code uses the analog pins on the PSU to control the voltage and current. It is easiest to see the
 PSU as an Operational Amplifier with a gain of 6 (maps 0 - 5 V to 0 - 30V) that can be current or voltage controlled.
 
+.. attention::
+
+    All voltages should be given in mV and all currents should be given in mA.
+
 ES030-5 pin mapping
 1. ??
 2. I monitor (0-5 V)
